@@ -1,0 +1,35 @@
+.grid{
+    width: 501px;
+    height: 501px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 165px;
+    width: 165px;
+    border: solid black 1px;
+}
+
+.mole{
+    background-image: url('anh/mole.jpg');
+    background-size: cover;
+}
+.cong{
+    background-image: url('anh/+1.png');
+    background-size: cover;
+}
+a{
+    color: blue;
+}
+a:visited{
+    color: blue;
+}
+
+a:hover, a:active{
+    color:red;
+}
+
+
+
+
